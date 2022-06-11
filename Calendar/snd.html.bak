@@ -1,0 +1,24 @@
+<html>
+	<head>
+	<title>Addition Special Non-Working Day</title>
+	
+	<style>
+.bgImg{
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 600px 400px;
+}
+	</style>
+	</head>
+	
+	<body>
+	<div style="background-image: url('snd.png')" class="bgImg">
+	</div>
+	<button onlick="closeSND()">X</button>
+		<script>
+		function closeSND(){
+		window.close();
+		}
+		</script>
+	</body>
+</html>

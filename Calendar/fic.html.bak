@@ -1,0 +1,25 @@
+<html>
+	<head>
+	<title>Feast of the Immaculate Conception</title>
+	
+	<style>
+.bgImg{
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 600px 400px;
+}
+	</style>
+	</head>
+	
+	<body>
+	<div style="background-image: url('fic.png')" class="bgImg">
+	<button onlick="closeFIC()">X</button>
+	</div>
+	
+		<script>
+		function closeFIC(){
+		window.close();
+		}
+		</script>
+	</body>
+</html>
